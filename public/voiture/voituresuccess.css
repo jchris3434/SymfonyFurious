@@ -1,0 +1,26 @@
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    
+    .titre{  
+    margin-top: 3%;
+    margin-left: 1%;
+    color: white;
+    }
+
+    .homebutton{
+        margin-left: 46%;
+        margin-top: 30%;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+    }

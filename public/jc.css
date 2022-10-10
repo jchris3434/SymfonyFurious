@@ -1,0 +1,70 @@
+.pilotebutton{
+    margin-top: 15%;
+    margin-left: 50%;
+    color: rgb(218, 138, 48);
+    border: none;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.logo{
+    margin-left: 2%;
+}
+
+body{
+    background-image: url("accueil/dark.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.fondjc{
+    background-image: url("accueil/croco.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.testswiz{
+    margin-left: 4%;
+    text-align: center;
+    color: rgb(218, 138, 48);
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: #d60;
+    font-family: "Inter", sans-serif;
+	font-size: 80px ;  
+	font-weight: 900;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    color: rgb(8, 48, 177);
+    font-size: 12px ;  
+	font-weight: 900;
+}
+
+.adminbutton{
+    margin-left: 100%;
+    color: rgb(218, 138, 48);
+    border: none;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.copyr{
+    margin-top: 2%;
+}
+
+.main{
+    height: auto;
+    width: 60%;
+}
+
+.course{
+    color: darkorange;
+    text-align: center;
+    margin-top: 6%;
+    height: 600px;
+    width: 100%;
+    font-size: 20px ;  
+	font-weight: 600;
+}
+

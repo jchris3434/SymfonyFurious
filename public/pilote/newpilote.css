@@ -1,0 +1,71 @@
+body{
+        background-image: url("challengersmoky2light.jpg");    
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#pilote_register{
+    margin-left: 5%;
+    height: 100px;
+    width: 200px;
+}
+
+.titre{
+    margin-left: 1%;
+    color: brown;
+    font-size: 20px ;  
+	font-weight: 900;
+}
+
+#pilote_register_record{
+    margin-top: 25px;
+    background-color: transparent;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 0.5rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.15rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#pilote_register_record:focus {
+  outline: 0;
+}
+
+#pilote_register_record:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+#pilote_register_record:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+    #pilote_register_record {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,16 @@
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+
+newpilote:
+    path: /newpilote
+    controller: App\Controller\PiloteController::index
+
+newpilotesuccess:
+    path: /newpiloteok
+    controller: App\Controller\PiloteController::new
+
+voituresuccess:
+    path: /voituresuccess
+    controller: App\Controller\VoitureController::success
+
